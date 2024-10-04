@@ -1,0 +1,15 @@
+package primitives;
+
+public class DaysOfWeek {
+
+	int answ = 1;
+	
+	switch (answ) {
+	case value: {
+		
+		yield type;
+	}
+	default:
+		System.out.print("Type correct data");
+	}
+}

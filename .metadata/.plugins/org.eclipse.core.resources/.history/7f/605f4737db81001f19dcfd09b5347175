@@ -1,0 +1,30 @@
+package primitives;
+import java.util.Scanner;
+public class MyNote {
+
+	public static void main(String[] args) {
+		
+		public static int add(int x, int y) {
+			int r=x+y;
+			return r;
+		}
+		
+		public static int subtraction(int x, int y) {
+			int r=x-y;
+			return r;
+		}
+		
+		
+		public static void main(String[] args) {
+		
+			int b = add(2,5);
+			int c = subtraction(b, 4);
+			
+			System.out.print(b+"\n");
+			System.out.print(c);
+					
+				
+
+		}
+
+}

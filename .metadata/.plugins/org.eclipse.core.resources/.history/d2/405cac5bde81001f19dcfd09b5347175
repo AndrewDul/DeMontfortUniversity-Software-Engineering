@@ -1,0 +1,39 @@
+public class Main {
+
+    // Enum - basically a way to define a set of fixed values.
+    // Here we're defining the days of the week.
+    public enum DaysOfWeek {
+        MONDAY, TUESDAY, WEDNESDAY, THURSDAY, FRIDAY, SATURDAY, SUNDAY
+    }
+
+    public static void main(String[] args) {
+        // We're creating a variable 'toDay'  of type DaysOfWeek.
+        // Setting it to MONDAY for now.
+        DaysOfWeek toDay = DaysOfWeek.MONDAY;
+
+        // A switch statement to check what day it is and print something accordingly.
+        switch (toDay) {
+            case MONDAY:
+                System.out.println("Dzisiaj jest poniedziałek."); // It's Monday.
+                break; // Don't forget to break, otherwise it'll keep checking other cases.
+            case TUESDAY:
+                System.out.println("Dzisiaj jest wtorek."); // It's Tuesday.
+                break;
+            case WEDNESDAY:
+                System.out.println("Dzisiaj jest środa."); // It's Wednesday.
+                break;
+            case THURSDAY:
+                System.out.println("Dzisiaj jest czwartek."); // It's Thursday.
+                break;
+            case FRIDAY:
+                System.out.println("Dzisiaj jest piątek."); // It's Friday.
+                break;
+            case SATURDAY:
+            case SUNDAY:
+                System.out.println("It's the weekend!"); // Woohoo, it's the weekend!
+                break;
+            default:
+                System.out.println("Unknown day."); // Just in case something weird happens.
+        }
+    }
+}

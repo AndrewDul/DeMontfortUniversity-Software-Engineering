@@ -1,0 +1,21 @@
+package primitives;
+
+public class DaysOfWeek {
+
+	public static int add(int x, int y) {
+		int r=x+y;
+		return r;
+	}
+	
+	
+	public static void main(String[] args) {
+	
+		int b = add(2,5);
+		
+		System.out.print(b);
+				
+			
+
+	}
+
+}

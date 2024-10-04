@@ -1,0 +1,12 @@
+package primitives;
+
+public class MyNote {
+
+	public static void main(String[] args) {
+		
+		boolean tak = true;
+		
+
+	}
+
+}

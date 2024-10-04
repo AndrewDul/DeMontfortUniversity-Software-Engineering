@@ -1,0 +1,42 @@
+package primitives;
+
+
+public class DaysOfWeek {
+
+    // enum - a way to define a set of fixed values.
+    // Here we are defining the days of the week.
+    public enum Day {
+        MONDAY, TUESDAY, WEDNESDAY, THURSDAY, FRIDAY, SATURDAY, SUNDAY
+    }
+
+    public static void main(String[] args) {
+        // We create a variable 'today' of type Day.
+        // Setting it to MONDAY for now.
+        Day today = Day.MONDAY;
+
+        // A switch statement to check what day it is and print something accordingly.
+        switch (today) {
+            case MONDAY:
+                System.out.println("Today is Monday."); // It's Monday.
+                break; // Break to stop further cases from executing.
+            case TUESDAY:
+                System.out.println("Today is Tuesday."); // It's Tuesday.
+                break;
+            case WEDNESDAY:
+                System.out.println("Today is Wednesday."); // It's Wednesday.
+                break;
+            case THURSDAY:
+                System.out.println("Today is Thursday."); // It's Thursday.
+                break;
+            case FRIDAY:
+                System.out.println("Today is Friday."); // It's Friday.
+                break;
+            case SATURDAY:
+            case SUNDAY:
+                System.out.println("It's the weekend!"); // Yay, it's the weekend!
+                break;
+            default:
+                System.out.println("Unknown day."); // In case something unexpected happens.
+        }
+    }
+}

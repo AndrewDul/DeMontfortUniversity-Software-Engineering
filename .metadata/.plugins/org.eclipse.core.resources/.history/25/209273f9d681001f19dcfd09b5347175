@@ -1,0 +1,23 @@
+package primitives;
+import java.until.scaner
+public class MyNote {
+
+	public static void main(String[] args) {
+		
+		int tak = System.input();				
+		
+		switch (tak) {
+		case 1: {
+			
+			System.out.println(tak);
+		}
+		default:
+			throw new IllegalArgumentException("Unexpected value: " + tak);
+		}
+		
+		
+		
+
+	}
+
+}
