@@ -2,48 +2,34 @@ package scanner;
 
 import java.util.Scanner;
 
-
 public class ScannerSurprise {
 
-	public static void main(String[] args) {
-		//create a Scanner for keyboard input
-		Scanner sc = new Scanner(System.in);		
+    public static void main(String[] args) {
+        // Create a Scanner for keyboard input
+        Scanner sc = new Scanner(System.in);        
 
-		System.out.println("Enter a number");
-		int number = sc.nextInt();	//read a number
-		System.out.println("You entered the number " + number);
-		
-		
-		/* Progress to next line - this is needed otherwise the following
-		 * call to the nextLine() method below will seemingly do nothing.
-		 *  
-		 * This is because the nextInt() method above reads the number 
-		 * input but ignores the newline '\n' character which is added 
-		 * to the input stream by pressing the enter key. When nextLine()
-		 * is called it "advances the scanner past the current line and
-		 * returns the input that was skipped".
-		 */
-		sc.nextLine(); 
-		
-		
-		System.out.println("Type a sentence");
-		String sentence = sc.nextLine();	//read a whole line
-		System.out.println("You entered the sentence " + sentence);
-		
-		
-		
-		System.out.println("Enter a number: ");
-		double decimal = sc.nextDouble(); //read a number
-		System.out.println("You entered the decimal " + decimal);
-		
-		//CURRENTLY SENTENCE BELOW IS SKIPPED - FIX THIS BY CALLING nextLine() HERE
-		
-		System.out.println("Type a sentence");
-		sentence = sc.nextLine();	//read a whole line
-		System.out.println("You entered the sentence " + sentence.length());
-		
-		sc.close(); //close the Scanner
-
-	}
-
+        System.out.println("Enter a number");
+        int number = sc.nextInt(); // Read a number
+        System.out.println("You entered the number " + number);
+        
+        // Consume the newline character
+        sc.nextLine(); 
+        
+        System.out.println("Type a sentence");
+        String sentence = sc.nextLine(); // Read a whole line
+        System.out.println("You entered the sentence: " + sentence);
+        
+        System.out.println("Enter a number: ");
+        double decimal = sc.nextDouble(); // Read a number
+        System.out.println("You entered the decimal: " + decimal);
+        
+        // Consume the newline character after reading the decimal
+        sc.nextLine(); // Fix: Call nextLine() here to consume the newline
+        
+        System.out.println("Type a sentence");
+        sentence = sc.nextLine(); // Read a whole line
+        System.out.println("You entered the sentence length: " + sentence.length());
+        
+        sc.close(); // Close the Scanner
+    }
 }
