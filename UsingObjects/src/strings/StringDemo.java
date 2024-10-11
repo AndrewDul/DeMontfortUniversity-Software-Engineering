@@ -82,6 +82,7 @@ public class StringDemo {
 	            sc.nextLine();  // Clear the buffer
 
 	            if (option == 7) {
+	            	
 	                // Exit option
 	                System.out.println("Exiting program... Goodbye!");
 	                break;  // End the loop and program
@@ -120,7 +121,7 @@ public class StringDemo {
 	            }
 
 	            // Ask if the user wants to continue
-	            System.out.println("------------------------------------------------");
+	            System.out.println("-------------------------------------------------");
 	            System.out.print("Do you want to continue? (yes/no): ");
 	            String continueOption = sc.nextLine().toLowerCase();
 
