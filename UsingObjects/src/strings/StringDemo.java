@@ -120,7 +120,7 @@ public class StringDemo {
 	            }
 
 	            // Ask if the user wants to continue
-	            System.out.println("----------------------------------------------");
+	            System.out.println("------------------------------------------------");
 	            System.out.print("Do you want to continue? (yes/no): ");
 	            String continueOption = sc.nextLine().toLowerCase();
 
