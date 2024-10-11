@@ -17,7 +17,7 @@ public class EmployeeRegisterDemo {
 		
 		System.out.println("All employee data...\n" + reg.toString() + "\n");
 		
-		System.out.println("List of employee names:");
+		System.out.println("List of employee names: ");
 		for (int i=0;i < reg.size(); i++) {
 			System.out.println(reg.getEmployee(i).getName().getFullName());
 		}
