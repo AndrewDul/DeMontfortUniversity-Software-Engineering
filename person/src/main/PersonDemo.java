@@ -11,19 +11,19 @@ public class PersonDemo {
     
         /* Create a default instance of Person.
          Set the name, date-of-birth and gender.
-         Display all the person’s details (i.e. toString())
+         Display all the personï¿½s details (i.e. toString())
          
          Output the full name of the person.
          Output the first name of the person.
          Output the date-of-birth of the person.
          Output the month the person was born.
-         Change the person’s family name.
+         Change the personï¿½s family name.
          
          Create a male Person (e.g. David Beckham) using the general constructor.
-         Change the person’s first name to female name (e.g. Victoria).
-         Change the person’s gender to female.
+         Change the personï¿½s first name to female name (e.g. Victoria).
+         Change the personï¿½s gender to female.
          
-         Work out how many years old the person is.
+         Work out how many years old the person is..
          */
 
         Person p = new Person();
@@ -46,7 +46,7 @@ public class PersonDemo {
         Person p1 = new Person(n1, d1, Gender.MALE);
        
         p1.getName().setFirstName("Victoria");
-        p1.setGender(Gender.FEMALE); //change gender to female
+        p1.setGender(Gender.FEMALE); //change gender to female.
         System.out.println(p1);
 
         //Work out how many years old the person is.
