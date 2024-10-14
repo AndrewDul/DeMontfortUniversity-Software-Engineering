@@ -12,7 +12,7 @@ public class ScannerSurprise {
         int number = sc.nextInt(); // Read a number
         System.out.println("You entered the number " + number);
         
-        // Consume the newline character
+        // clean the newline character
         sc.nextLine(); 
         
         System.out.println("Type a sentence");
@@ -23,7 +23,7 @@ public class ScannerSurprise {
         double decimal = sc.nextDouble(); // Read a number
         System.out.println("You entered the decimal: " + decimal);
         
-        // Consume the newline character after reading the decimal
+        // clean the newline character after reading the decimal
         sc.nextLine(); // Fix: Call nextLine() here to consume the newline
         
         System.out.println("Type a sentence");
