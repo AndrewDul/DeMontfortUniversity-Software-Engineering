@@ -38,6 +38,11 @@ public class NumberArrayDemo {
 			System.out.println(numbers[i]);
 		}
 		
+		for (int i=0; i < numbers.length; i++) {
+			int a = numbers[i] + 1;
+			//print out current element (i)plus 1 in array
+			System.out.println(a);
+		}
 		
 		
 		/* FIND LARGEST NUMBER */
