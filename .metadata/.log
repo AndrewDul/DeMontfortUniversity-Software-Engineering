@@ -493,3 +493,18 @@ This warning can be switched off on the Team > Git > Confirmations and Warnings 
 
 !ENTRY com.genuitec.copilot4eclipse 2 0 2024-10-14 18:59:51.559
 !MESSAGE Timeout while checking Copilot status
+
+!ENTRY com.genuitec.copilot4eclipse.chat 1 0 2024-10-14 19:36:32.027
+!MESSAGE Jetty server started: true uri: http://192.168.0.10:50357/chat
+
+!ENTRY com.genuitec.copilot4eclipse.chat 1 0 2024-10-14 19:36:32.163
+!MESSAGE Persistence: n/a
+
+!ENTRY com.genuitec.copilot4eclipse.chat 1 0 2024-10-14 19:36:37.230
+!MESSAGE Workspace labels: java
+
+!ENTRY com.genuitec.copilot4eclipse.chat 1 0 2024-10-14 20:04:58.756
+!MESSAGE Jetty server stopped: Server@216f7641{STOPPED}[10.0.20,sto=0]
+
+!ENTRY com.genuitec.copilot4eclipse.chat 1 0 2024-10-14 20:04:58.759
+!MESSAGE Jetty server stopped: true

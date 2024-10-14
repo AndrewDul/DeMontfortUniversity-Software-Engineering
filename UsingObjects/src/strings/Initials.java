@@ -47,7 +47,7 @@ public class Initials {
 		default ->System.out.println("No email generated.");
 		
 		}
-		
+		 sc.close(); 
 		System.out.println("------------------------------------------------------------");
 
 		
