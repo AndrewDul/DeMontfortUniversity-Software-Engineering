@@ -38,7 +38,15 @@ public class Initials {
         char secondLowerCaseInitialUser = Character.toLowerCase(secondInitialUser);
 		
 		System.out.println("Initial: " + firstInitialUser + secondInitialUser);
-		System.out.println("E-mail: "+ firstLowerCaseInitialUser + secondLowerCaseInitialUser + emailform);
+		System.out.println("Do you want to generate an e-mail?");
+		String choice = sc.nextLine();
+		 
+		switch (choice.toLowerCase()){
+		case "yes" -> System.out.println("E-mail: "+ firstLowerCaseInitialUser + secondLowerCaseInitialUser + emailform);
+		
+		default ->System.out.println("No email generated.");
+		
+		}
 		
 		System.out.println("------------------------------------------------------------");
 
