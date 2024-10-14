@@ -21,11 +21,13 @@ public class StringArrayDemo {
         
         switch (option) {
 		case 1 ->{
+			System.out.println("\n");
 			for(int i=0; i < fruit.length; i++) {
 				System.out.println(fruit[i].toUpperCase());
 			}
 		}
 		case 2 ->{
+			System.out.println("\n");
 			for(int i=0; i < fruit.length; i++) {
 				System.out.println(fruit[i].toLowerCase());
 			}
@@ -37,7 +39,7 @@ public class StringArrayDemo {
 		
 		}
 		
-		
+        sc.close();
 
 	}
 

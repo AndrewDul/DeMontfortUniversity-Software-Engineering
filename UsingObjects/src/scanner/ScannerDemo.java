@@ -7,17 +7,25 @@ public class ScannerDemo {
     public static void main(String[] arg) {
         Scanner sc = new Scanner(System.in);
 
+        // Asking for address
         System.out.println("Type your address, and press Enter");
         String address = sc.nextLine(); // read a whole line
         System.out.println("You live at " + address);
 
+        // Asking for first name
         System.out.println("Type your first name, and press Enter");
         String name = sc.next(); // read next token as String
         System.out.println("Hello " + name);
 
+        // Asking for last name
+        System.out.println("Type your last name, and press Enter");
+        String lastName = sc.next(); // read next token as String
+        System.out.println("Your full name is " + name + " " + lastName);
+
+        // Asking for age
         int age = 0;
         boolean validAge = false;
-
+        
         // Loop to read age until a valid value is obtained
         while (!validAge) {
             System.out.println("Enter your age: ");
@@ -33,11 +41,26 @@ public class ScannerDemo {
                 sc.next(); // clear the invalid token from the buffer
             }
         }
-
         System.out.println("You are " + age + " years old");
 
-        // You can add additional questions and logic here...
+        // Asking for gender
+        sc.nextLine(); // This line clears the buffer after nextInt()
+        String gender = "";
+        boolean validGender = false;
 
-        sc.close(); // close the Scanner
+        while (!validGender) {
+            System.out.println("Enter your gender \n(Male / Female / Other): ");
+            gender = sc.nextLine().toLowerCase(); // Convert input to lowercase for easier comparison
+            if (gender.equals("male") || gender.equals("female") || gender.equals("other")) {
+                validGender = true;
+            } else {
+                System.out.println("That's not a valid gender. Please try again.");
+            }
+        }
+
+        System.out.println("You have selected: " + gender);
+
+        // Close the Scanner
+        sc.close();
     }
 }
