@@ -44,6 +44,32 @@ public class StringDemo {
 			System.out.println(myName.charAt(i));
 		}
 		
+ /// Additional String methods examples
+        
+		 // toUpperCase(): Converts all letters in the string to uppercase
+        String userInput = "sample text";
+        String upperCaseResult = userInput.toUpperCase();
+        System.out.println("Uppercase result: " + upperCaseResult);  
+
+        // replace(char oldChar, char newChar): Replaces all occurrences of 'p' with 'b'
+        String fruitName = "apple";
+        String replacedFruitName = fruitName.replace('p', 'b');
+        System.out.println("Replaced result: " + replacedFruitName);  
+
+        // substring(int beginIndex, int endIndex): Extracts a substring from index 0 to 5
+        String sentence = "hello universe";
+        String subText = sentence.substring(6, 14);  
+        System.out.println("Substring result: " + subText);  
+
+        // indexOf(String str): Returns the index of the first occurrence of "door"
+        String phrase = "open the door";
+        int indexPosition = phrase.indexOf("door");
+        System.out.println("Index of 'door': " + indexPosition);  
+
+
+        
+        /// Interactive application using Scanner
+		
 		Scanner sc = new Scanner(System.in);  
 		
 		
