@@ -50,8 +50,8 @@ public class Name {
 		}
 	}
 	
-	@Override
-	public String toString() {
-		return "Name:[firstName=" + firstName + ", familyName=" + familyName + "]";
-	}
+//	@Override
+//	public String toString() {
+//		return "Name:[firstName=" + firstName + ", familyName=" + familyName + "]";
+//	}
 }

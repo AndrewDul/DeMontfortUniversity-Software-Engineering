@@ -51,6 +51,6 @@ public class NameDemo {
 		//Checking output of toString
 		System.out.println("\n" + joe.toString());
 
-	}
+	}	
 
 }
