@@ -56,6 +56,14 @@ public class Counter {
 		count = count + amount;
 	}
 	
+	/** Decrement the counter value by the given amount.
+	 * 
+	 * @param amount the int value at which the counter should be decrement
+	 */
+	public void decrement(int amount) {
+		count = count - amount;
+	}
+	
 	/** Resets the counter value to zero. */
 	public void reset() {
 		count = 0;

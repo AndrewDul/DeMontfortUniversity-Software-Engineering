@@ -52,11 +52,11 @@ public class CounterApp {
 		//When you comment out the code below it will initially not compile, as you need to add
 		//the decrement() method to the Counter class.
 		
-		/*for (blastOff.incrementBy(10); !blastOff.isZero(); blastOff.decrement()) {
+		for (blastOff.incrementBy(10); !blastOff.isZero(); blastOff.decrement(2)) {
 			System.out.print(blastOff.getCount() + " ");
 		}
 		
-		System.out.println("Blast off!");*/
+		System.out.println("Blast off!");
 		
 	}
 }
