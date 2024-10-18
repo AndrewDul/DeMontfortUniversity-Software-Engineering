@@ -5,8 +5,7 @@ public class HelloWorld {
 	public static void main(String[] args) {
 		Object o= new Object();
 		
-		o.
-		
-		System.out.println(o);
-}
+		System.out.println("main Object: "+o);
+		System.out.println("Hello world ");
+    }
 }
