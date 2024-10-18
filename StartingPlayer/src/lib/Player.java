@@ -9,7 +9,7 @@ import lib.PairOfDice;
  * This class allows rolling dice and getting the dice score.
  * 
  * @author Andrew
- * @version 1.0
+ * 
  */
 public class Player{
     private Name name;           // Name of the player
