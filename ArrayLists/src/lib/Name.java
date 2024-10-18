@@ -54,4 +54,12 @@ public class Name {
 	public String toString() {
 		return "Name:[firstName=" + firstName + ", familyName=" + familyName + "]";
 	}
+	
+	@Override
+    public boolean equals(Object obj) {
+        if (this == obj) return true; // Check if they are the same reference
+        if (obj == null || getClass() != obj.getClass()) return false; // Ensure they are of the same class
+        Name name = (Name) obj; // Cast the object to a Name type
+        return firstName.equals(name.firstName) && familyName.equals(name.familyName); // Compare both fields
+    }
 }

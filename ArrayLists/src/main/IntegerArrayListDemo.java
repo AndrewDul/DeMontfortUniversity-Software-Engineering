@@ -67,6 +67,43 @@ public class IntegerArrayListDemo {
 
 
 		//TEST OTHER METHODS HERE...
+		
+		// Removing element at index 0
+        list.remove(0);
+        System.out.println("After removing element at index 0: " + list);
+
+        // Setting element at index 1 to 100
+        list.set(1, 100);
+        System.out.println("After setting index 1 to 100: " + list);
+
+        // Checking if the list is empty
+        if (list.isEmpty()) {
+            System.out.println("The list is empty.");
+        } else {
+            System.out.println("The list is not empty.");
+        }
+
+        // Checking if the list contains number 100
+        if (list.contains(100)) {
+            System.out.println("The list contains 100.");
+        } else {
+            System.out.println("The list does not contain 100.");
+        }
+
+        // Trimming the capacity to the current size of the list
+        list.trimToSize();
+        System.out.println("List capacity trimmed to its current size.");
+
+        // Clearing the list
+        list.clear();
+        System.out.println("After clearing the list: " + list);
+
+        // Checking if the list is empty again after clearing
+        if (list.isEmpty()) {
+            System.out.println("The list is now empty.");
+        } else {
+            System.out.println("The list is still not empty.");
+        }
 
 
 	}
