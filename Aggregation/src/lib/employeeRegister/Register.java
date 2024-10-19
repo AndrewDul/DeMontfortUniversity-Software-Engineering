@@ -7,7 +7,7 @@ import java.util.ArrayList;
  * It allows adding, removing, and managing names with a fixed room capacity.
  * 
  * @author Andrew
- * @version 1.0
+ * 
  */
 public class Register {
     private ArrayList<Name> names;  // List of names in the register
