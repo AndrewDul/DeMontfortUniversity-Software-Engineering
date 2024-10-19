@@ -2049,3 +2049,18 @@ This warning can be switched off on the Team > Git > Confirmations and Warnings 
 
 !ENTRY com.genuitec.copilot4eclipse.chat 1 0 2024-10-19 00:17:29.317
 !MESSAGE EdgeDataDir: C:\Users\andrz\Desktop\Code\DeMontfortUniversity-Software-Engineering-Projects-and-Labs\.metadata\.plugins\com.genuitec.copilot4eclipse\edgedata
+
+!ENTRY com.genuitec.copilot4eclipse.chat 1 0 2024-10-19 02:33:43.228
+!MESSAGE Jetty server started: true uri: http://192.168.0.10:50441/chat
+
+!ENTRY com.genuitec.copilot4eclipse.chat 1 0 2024-10-19 02:33:43.393
+!MESSAGE Persistence: n/a
+
+!ENTRY com.genuitec.copilot4eclipse.chat 1 0 2024-10-19 02:33:48.452
+!MESSAGE Workspace labels: java
+
+!ENTRY com.genuitec.copilot4eclipse.chat 1 0 2024-10-19 02:43:11.118
+!MESSAGE Jetty server stopped: Server@741e790{STOPPED}[10.0.20,sto=0]
+
+!ENTRY com.genuitec.copilot4eclipse.chat 1 0 2024-10-19 02:43:11.119
+!MESSAGE Jetty server stopped: true
