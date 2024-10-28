@@ -6,6 +6,7 @@ package lib.iterable_comparable;
 
 import java.util.ArrayList; //import as instance variable is of type ArrayList
 import java.util.Collections; //import to use shuffle method on ArrayList
+import java.util.Iterator;
 import java.util.List;
 
 /** A PlayList is collection of Songs. The list can be named. 
@@ -14,7 +15,7 @@ import java.util.List;
  * 
  *  @author la, lz 
  */
-public class PlayList {
+public class PlayList implements Iterable<Song> {
 
 	//Fields
     private String name; //the name for this songlist
@@ -158,9 +159,8 @@ public class PlayList {
     /** Merges this playlist with another *
      * @param p The playlist to be merged with this one. */
     public void mergePlaylist(PlayList p) {
-    	for (int i = 0; i < p.numberOfSongs(); i++) {
-            songlist.add(p.getSong(i));
-    	}    	
+    	p.forEach(s -> songlist.add(s));
+    	
     }
     
     /** Searches for the provided title in the song list and returns true or false
@@ -216,5 +216,11 @@ public class PlayList {
         }
         return s;       
     }
+    
+    @Override
+    public Iterator<Song> iterator() {
+        return songlist.iterator();
+    }
+
     
 }

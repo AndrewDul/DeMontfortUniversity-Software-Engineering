@@ -1,6 +1,7 @@
 package lib.polymorphism;
 
 import java.util.ArrayList;
+import java.util.Iterator;
 import java.util.List;
 
 /** An example of an Aggregation class, i.e. one that encapsulates
@@ -12,7 +13,7 @@ import java.util.List;
  * The MultipleDice class implements the Rollable interface and therefore
  * specifies its required behaviour (rolling and retrieving a score).
  */
-public class MultipleDice implements Rollable {
+public class MultipleDice implements Rollable, Iterable<Die> {
 
 	// Fields
 	private List<Die> dice;
@@ -74,4 +75,10 @@ public class MultipleDice implements Rollable {
 	public String toString() {
 		return "MultipleDice:[dice=" + dice + "]";
 	}
+	
+	@Override
+	public Iterator<Die> iterator() {
+	    return dice.iterator();
+	}
+
 }

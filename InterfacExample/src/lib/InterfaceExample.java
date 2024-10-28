@@ -30,6 +30,7 @@ public class InterfaceExample implements Car {
 	@Override
 	public void moveForward() {
 		System.out.println("I'm moving forward");
+		
 	}
 
 	@Override

@@ -48,7 +48,9 @@ public class PlayListApp {
         playlist.shufflePlaylist();
         System.out.println(playlist.getTrackListings());   
         
-        
+        for (Song track : playlist) {
+			track.play();
+		}
                
     }
 }
