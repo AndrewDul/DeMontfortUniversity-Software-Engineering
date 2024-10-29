@@ -10,6 +10,7 @@ package textio;
 import java.io.*;
 import java.util.*;
 
+
 public class TransactionProcessor {
 
 	public static void main(String[] arg) throws FileNotFoundException {
@@ -24,6 +25,8 @@ public class TransactionProcessor {
 		{
 			if (transaction.equals("plus"))
 				c.incrementBy(sc.nextInt());
+			else if(transaction.equals("reset"))
+				c.reset();
 			else if (transaction.equals("minus"))
 				c.decrementBy(sc.nextInt());
 

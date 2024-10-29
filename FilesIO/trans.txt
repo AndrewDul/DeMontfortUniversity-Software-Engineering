@@ -3,4 +3,12 @@ plus 200
 minus 50
 plus 250
 minus 300
+minus 666
+plus 999
+reset 
+plus 1
+plus 400
+minus 200
+plus 50
+minus 250
 end
