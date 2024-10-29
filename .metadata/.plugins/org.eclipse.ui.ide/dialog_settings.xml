@@ -7,6 +7,7 @@
 		<item key="WizardProjectsImportPage.STORE_CLOSE_CREATED_PROJECTS_ID" value="false"/>
 		<item key="WizardProjectsImportPage.STORE_HIDE_CONFLICTING_PROJECTS_ID" value="false"/>
 		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+			<item value="C:\Users\andrz\Desktop\FilesIO\FilesIO"/>
 			<item value="C:\Users\andrz\Desktop\PortfolioPlayer\PortfolioPlayer"/>
 			<item value="C:\Users\andrz\Desktop\InterfaceTypes"/>
 			<item value="C:\Users\andrz\Desktop\NestedClasses\NestedClasses"/>
@@ -25,8 +26,8 @@
 			<item value=""/>
 		</list>
 		<section name="ExternalProjectImportWizard.dialogBounds">
-			<item key="DIALOG_X_ORIGIN" value="203"/>
-			<item key="DIALOG_Y_ORIGIN" value="167"/>
+			<item key="DIALOG_X_ORIGIN" value="619"/>
+			<item key="DIALOG_Y_ORIGIN" value="172"/>
 			<item key="DIALOG_WIDTH" value="700"/>
 			<item key="DIALOG_HEIGHT" value="861"/>
 			<item key="DIALOG_FONT_NAME" value="1|Segoe UI|9.0|0|WINDOWS|1|-15|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI"/>
