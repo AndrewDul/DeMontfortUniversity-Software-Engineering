@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap");
+
+/* Line-height i spacing */
+p {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  letter-spacing: 0.5px;
+  max-width: 70ch;
+  margin: 1rem auto;
+}
+
+span {
+  background: hsl(50, 80%, 50%, 0.2) !important;
+  border: 0.5px solid hsl(50, 80%, 50%) !important;
+  padding: 0.2rem;
+}
+
+/* no standard fond */
+.code-sample {
+  font-family: "JetBrains Mono", monospace;
+  white-space: pre-wrap;
+  background: var(--accent-1);
+  padding: 1rem;
+  border-radius: 4px;
+}

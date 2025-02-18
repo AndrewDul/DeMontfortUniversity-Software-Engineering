@@ -1,0 +1,37 @@
+:root {
+  --bg-color: #343541;
+  --text-color: #ececf1;
+  --accent-1: #40414f;
+  --accent-2: #10a37f;
+  --border-color: #555;
+}
+
+body {
+  background: var(--bg-color);
+  color: var(--text-color);
+  font-family: "Roboto", system-ui;
+  line-height: 1.4;
+  margin: 0;
+  padding: 2rem;
+}
+
+/* Custom Font */
+@font-face {
+  font-family: "JetBrains Mono";
+  src: url("../fonts/JetBrainsMono.woff2") format("woff2");
+  font-weight: 400;
+}
+
+a {
+  color: var(--accent-2);
+  text-decoration: none;
+}
+
+input,
+button {
+  background: var(--accent-1);
+  border: 1px solid var(--border-color);
+  color: var(--text-color);
+  padding: 0.5rem;
+  border-radius: 4px;
+}

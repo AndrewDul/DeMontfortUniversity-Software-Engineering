@@ -1,0 +1,28 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flow-root; /* Zapobiega margin overflow */
+  max-width: 75ch;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+/* Box model demo */
+.box {
+  background: var(--accent-1);
+  margin: 2rem;
+  padding: 1.5rem;
+  border: 2px solid var(--accent-2);
+  border-radius: 8px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 4px;
+}
